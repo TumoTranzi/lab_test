@@ -1,0 +1,13 @@
+connectorId: example
+generate:
+  javascriptSdk:
+    - outputDir: ..\..\Lab test 2\movie-review-platform\frontend\src\dataconnect-generated
+      package: "@dataconnect/generated"
+      packageJsonDir: ..\..\Lab test 2\movie-review-platform\frontend
+      react: true
+      angular: false
+    - outputDir: ..\..\Lab test 2\movie-review-platform\backend\src\dataconnect-generated
+      package: "@dataconnect/generated"
+      packageJsonDir: ..\..\Lab test 2\movie-review-platform\backend
+      react: false
+      angular: false
